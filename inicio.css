@@ -1,0 +1,172 @@
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #ffffff;
+  color: #4b4c4d;
+  margin: 5em ;
+}
+
+.principal {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #4b4c4d;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+section {
+  display: flex;
+  width: 600px;
+  height: 430px;
+}
+
+section img {
+  width: 0;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+
+}
+
+section img:hover {
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+.foto {
+  height: 180px;
+  width: 130px;
+}
+h1 {
+  color: #4b4c4d;
+}
+
+table{
+  padding: 20px;
+}
+
+.wrapper {
+  height: 10vh;
+  display: grid;
+  place-items: center;
+}
+
+.typing-demo {
+  width: 20ch;
+  animation: typing 2s steps(25), blink 0.7s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 2em;
+  color: #4b4c4d;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+.table_data th {
+  width: 65%;
+  text-align: left;
+}
+.ref1{
+  text-align: left;
+  margin: 5px;
+  padding: 20px;
+  border-style: dotted;
+  border-width: .7px;
+  border-radius: 10px;
+  border-color: #4b4c4d;
+}
+.table_study{
+  width: 90%;
+}
+.table_study th {
+  width: 10%;
+  text-align: left;
+}
+
+.table_info th {
+  width: 50%;
+  text-align: left;
+}
+.referencias,
+.datos {
+  background-color: #b9d1ed;
+}
+
+.referencias{
+  padding: 10px;
+}
+div{
+  padding-top: 2px;
+}
+
+.information{
+  background-color: #ffe08f;
+}
+.footer-basic {
+  padding: 40px 0;
+  background-color: #ffffff;
+  color: #4b4c4d;
+}
+
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer-basic li {
+  padding: 0 10px;
+}
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
